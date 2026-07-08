@@ -1,0 +1,113 @@
+/* Basic structural alignments only — no style decorations */
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  /* Navbar item arrangement */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  /* Simple image sizing */
+  .banner-section img {
+    width: 49%;
+    height: auto;
+  }
+  
+  /* About & Skills row alignment */
+  .profile-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+  
+  .profile-box {
+    width: 48%;
+    text-align: center;
+  }
+  
+  /* Project column split (3 columns) */
+  .projects-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+  
+  .project-column {
+    width: 31%;
+  }
+  
+  .project-column img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Simple structural green academic table layout */
+  .table-section {
+    margin: 30px 0;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d1e7dd; /* table-success logic */
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .data-table th {
+    background-color: #212529;
+    color: white;
+  }
+  
+  /* Vertical column striping rule for column 2 */
+  .data-table td:nth-child(2) {
+    background-color: #bcd0c7;
+  }
+  
+  /* Centering layout logic for the form element block */
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .contact-container {
+    width: 50%; /* Holds the box layout width narrow */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+  }
+  
+  /* Global utility positions */
+  .text-center {
+    text-align: center;
+  }
